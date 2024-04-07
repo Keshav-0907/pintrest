@@ -11,7 +11,8 @@ This project is a Pinterest clone built using Next.js with TypeScript. Users can
   
 - **Image Browsing:** Users can explore various images uploaded by other users or themselves.
 
-- **Image Saving:** Users can save images to their collections for later reference.
+- **Image Saving:** Used firebase to save user data and their images.
+  
 
 ## Technologies Used
 
