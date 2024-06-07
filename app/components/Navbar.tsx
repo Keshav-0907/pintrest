@@ -62,7 +62,7 @@ const Navbar = () => {
                     )
                 }
 
-                <div className="bg-black text-white px-3 py-2 rounded-full" onClick={handleCreate}>
+                <div className="bg-black text-white px-3 py-2 rounded-full cursor-pointer" onClick={handleCreate}>
                     Create
                 </div>
             </div>

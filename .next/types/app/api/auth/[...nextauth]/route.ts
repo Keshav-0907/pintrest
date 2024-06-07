@@ -1,4 +1,4 @@
-// File: /Users/keshavmalik/Desktop/pintrest-clone/app/api/auth/[...nextauth]/route.js
+// File: /Users/keshavmalik/Desktop/pintrest/app/api/auth/[...nextauth]/route.js
 import * as entry from '../../../../../../app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 

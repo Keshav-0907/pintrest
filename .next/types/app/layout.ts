@@ -1,4 +1,4 @@
-// File: /Users/keshavmalik/Desktop/pintrest-clone/app/layout.tsx
+// File: /Users/keshavmalik/Desktop/pintrest/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

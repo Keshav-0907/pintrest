@@ -9,10 +9,8 @@ import app from '../utils/firbaseConfig';
 import { getFirestore, serverTimestamp, setDoc, doc } from 'firebase/firestore';
 import { ref } from 'firebase/storage';
 import toast, { Toaster } from 'react-hot-toast';
-import Router from 'next/navigation';
 
 const page = () => {
-    const router = Router;
     const { data: session, status } = useSession();
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('')
@@ -49,6 +47,7 @@ const page = () => {
             await setDoc(doc(db, 'pins', postId), newPin);
             toast.success('Pin Uploaded Successfully')
             setLoading(false)
+            window.location.href = '/'
         } catch (error) {
             console.error('Error uploading file and setting pin data:', error);
         }
